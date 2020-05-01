@@ -1,0 +1,196 @@
+@keyframes animation1 {
+    from {
+      margin-top: 20%;
+    }
+  
+    to {
+        /**/
+    }
+}
+@keyframes animation2{
+    from{
+        width: 0%;
+        border-left: 0px solid red;
+    }
+    to{
+        /**/
+    }
+}
+@keyframes animation3{
+    from{
+        height: 100%;
+    }
+    to{
+        height: 0;
+    }
+}
+@keyframes animation3-1{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%; 
+    }
+}
+
+body{
+    margin-top: 50px;
+    margin-left: 50px;
+    background: red;
+}
+
+.numero{
+    width: 140px;
+    height: 300px;
+    background: red;
+    float: left;
+    margin-left: 20px;
+    animation-name: animation1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+.numdiv{
+    background: purple;
+    display: block;
+    margin: 0 auto;
+}
+
+.numero0{
+    width: 240px;
+    height: 300px;
+    background: red;
+    float: left;
+    margin-left: 20px;
+}
+#num0{
+    animation-name: animation1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+#num1{
+    animation-name: animation1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+
+.n1top{
+    width: 50%;
+    background: black;
+    border-bottom: 60px solid transparent;
+    border-left: 70px solid red;
+    animation-name: animation2;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+.n1base{
+    width: 60%;
+    height: 235px;
+    background: black;
+    float: right;
+    margin-top: 5px;
+}
+
+.part1{
+    width: 58%;
+    height: 100%;
+    background: red;
+    float: left;
+}
+.meiopart1{
+    width: 30%;
+    height: 55%;
+    background: red;
+    float: right;
+    position: relative;
+    right: 100px;
+    top: 60px;
+    border-radius: 15px 0px 0px 15px;
+}
+.part2{
+    width: 40%;
+    height: 100%;
+    background: black;
+    float: right;
+    position: relative;
+    bottom: 165px;
+}
+.interior{
+    background: red;
+    animation-name: animation3;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+.inter{
+    width: 100%;
+    height: 100%;
+    background: black;
+    animation-name: animation3-1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+
+@keyframes animation4{
+    from{
+        margin-left: 30%;
+    }
+    to{
+        margin-left: 5px;
+    }
+}
+
+.porcent{
+    width: 170px;
+    height: 150px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 150px;
+    animation-name: animation4;
+    animation-delay: 5.5s;
+    animation-duration: 0.1s;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+}
+
+.barra{
+    width: 40px;
+    height: 130%;
+    background: black;
+    position: relative;
+    left: 60px;
+    bottom: 25px;
+    transform: rotate(40deg);
+    border: 3px solid red;
+}
+
+.porcent1{
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin-top: 70px;
+}
+.porcent0{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.porp1{
+    width: 55%;
+    height: 100%;
+    background: black;
+    float: left;
+}
+.porp2{
+    width: 40%;
+    height: 100%;
+    background: black;
+    float: right;
+}
+.pormeio{
+    width: 25px;
+    height: 25px;
+    background: red;
+    float: right;
+    margin-top: 27px;
+    border-radius: 3px 0px 0px 3px;
+}
